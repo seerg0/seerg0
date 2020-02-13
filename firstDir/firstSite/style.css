@@ -34,7 +34,7 @@ header{
 
 nav{
     margin-top: 56px;
-    margin-left: 29%;
+    margin-left: 20%;
 }
 .topnav a{
     color: #ffffff;
@@ -52,7 +52,26 @@ nav{
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+    nav{
+        margin-left: 15%;
+    }
+    .topnav a{
+        padding: 12px 8px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    nav{
+        margin-left: 10%;
+    }
+    .topnav a{
+        padding: 12px 8px;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
     .topnav a{
         display: none;
     }
